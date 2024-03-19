@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 50px;
+}
+
+section {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 0px;
+  border-bottom: 1px solid lightgray;
+}
+
+h2 {
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.description {
+  margin-left: 15px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  height: 20px;
+}
+
+.bottom-description {
+  display: flex;
+}
+
+li {
+  color: red;
+  list-style-type: disc;
+  font-weight: bold;
+}
+
+h3 {
+  width: 70px;
+  font-weight: bold;
+}
